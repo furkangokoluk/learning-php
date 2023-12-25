@@ -10,27 +10,27 @@
             $b = 1;
             if ($a < $b)
             {
-                echo "a küçüktür b'den";
+                echo "a kuçuktur b'den";
             }
             elseif ($a == $b)
             {
-                echo "a eşittir b'ye";
+                echo "a esittir b'ye";
             }
             else
             {
-                echo "b küçüktür a'dan";
+                echo "b kucuktur a'dan";
             }
             echo "<br>";
             switch ($a)
             {
                 case 1:
-                    echo "a değişkeninin değeri 1'dir";
+                    echo "a degiskeninin degeri 1'dir";
                     break;
                 case 2:
-                    echo "a değişkeninin değeri 2'dir";
+                    echo "a degiskeninin degeri 2'dir";
                     break;
                 case 3:
-                    echo "a değişkeninin değeri 3'dir";
+                    echo "a degiskeninin degeri 3'dir";
                     break;
             }
         ?>

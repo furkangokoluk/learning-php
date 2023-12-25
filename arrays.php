@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php
-            $array1 = array("Furkan","Gökoluk","Adana",01,array("Gümüşhane Üniversitesi",2107201030,"Yazılım Mühendisliği"));
+            $array1 = array("Furkan","Gokoluk","Adana",01,array("Gumüshane Universitesi",2107201030,"Yazilim Muhendisligi"));
             echo $array1[2]." ".$array1[3];
 
             echo "<br>";

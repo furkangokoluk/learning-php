@@ -6,16 +6,16 @@
     </head>
     <body>
         <?php
-            echo "----------------- İnt Degiskenler -----------------"."<br>";
+            echo "----------------- int Degiskenler -----------------"."<br>";
             $number1 = 10;
             $number2 = 6;
             echo $number1."<br>".$number2."<br>";
             echo $number1 - $number2;
             echo "<br>";
 
-            echo "<br>"."----------------- String Degiskenler -----------------"."<br>";
-            $str1 = "Furkan Gökoluk";
-            $str2 = "Yazılım Mühendisliği ";
+            echo "<br>"."----------------- string Degiskenler -----------------"."<br>";
+            $str1 = "Furkan Gokoluk";
+            $str2 = "Yazilim Muhendisligi ";
             echo $str1;
             
             echo "<br>";
@@ -26,7 +26,7 @@
             echo $str2;
             echo "<br>";
 
-            echo "<br>"."----------------- Float Degiskenler -----------------"."<br>";
+            echo "<br>"."----------------- float Degiskenler -----------------"."<br>";
             $myFloat = $number1 / $number2;
             echo $myFloat;
 
@@ -35,7 +35,7 @@
             echo $random;
             echo "<br>";
 
-            echo "<br>"."----------------- Boolean Degiskenler -----------------"."<br>";
+            echo "<br>"."----------------- boolean Degiskenler -----------------"."<br>";
             $bool1 = true;
             $bool2 = false;
             echo $bool1."<br>".$bool2."<br>------------------------------<br>";
@@ -47,7 +47,7 @@
             echo isset($ist1)."<br>".isset($ist2)."<br>".isset($ist3)."<br>------------------------------<br>";
             echo empty($ist1)."<br>".empty($ist2)."<br>".empty($ist3)."<br>------------------------------<br>";
             
-            echo "<br>"."----------------- Sabitler -----------------"."<br>";
+            echo "<br>"."----------------- sabitler -----------------"."<br>";
             define("MAX_HEIGHT","500");
             echo MAX_HEIGHT;
         ?>
